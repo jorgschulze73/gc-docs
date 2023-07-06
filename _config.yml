@@ -1,0 +1,31 @@
+title: Exeggcute
+description: The most comprehensive mapping client for Pokémon Go!
+theme: just-the-docs
+
+url: https://jorgschulze73.github.io/gc-docs/
+
+color_scheme: nil
+
+callouts_level: quiet
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+nav_external_links:
+  - title: Exeggcute on Discord
+    url: https://discord.gg/H6MaEwRhx3
+    hide_icon: false
+
+footer_content: "Pokémon, Pokémon character names & images and Pokémon Go are trademarks of Nintendo and The Pokémon Company"
