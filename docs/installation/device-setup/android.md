@@ -17,7 +17,7 @@ Exeggcute supports both 32 and 64 bit Android devices
 
 - Android 7 or above
 - Device needs to be rooted
-- Device needs to pass [SafetyNet] attestation
+- Device needs to pass [SafetyNet] and [Play Integrity] basic attestation
 
 ----
 
@@ -31,7 +31,9 @@ Exeggcute supports both 32 and 64 bit Android devices
 6. Relaunch Exeggcute, it will now take care of keeping Pokémon GO alive
 
 {: .note }
-> You can check if your device passes SafetyNet using [this] app
+> You can check if your device passes SafetyNet using [this](https://play.google.com/store/apps/details?id=com.scottyab.safetynet.sample) app
+>
+> You can check if your device passes Play Integrity using [this](https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck) app
 
 ----
 
@@ -53,5 +55,5 @@ The following is a list of ATV devices confirmed to work with Exeggcute:
 
 [^1]: [Discontinued Support for 32-Bit Android Devices](https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2572-discontinued-support-for-32-bit-android-devices)
 [SafetyNet]: https://developer.android.com/training/safetynet
-[this]: https://play.google.com/store/apps/details?id=com.scottyab.safetynet.sample
+[Play Integrity]: https://developer.android.com/google/play/integrity
 [configuration]: {% link docs/installation/device-setup/configuration.md %}
