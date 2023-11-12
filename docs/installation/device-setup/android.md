@@ -3,7 +3,7 @@ title: Android
 layout: default
 parent: Device Setup
 grand_parent: Installation
-nav_order: 2
+nav_order: 3
 ---
 
 Exeggcute supports both 32 and 64 bit Android devices
@@ -15,9 +15,14 @@ Exeggcute supports both 32 and 64 bit Android devices
 
 ### Requirements
 
-- Android 7 or above
+- Android 9 or above
 - Device needs to be rooted
 - Device needs to pass [SafetyNet] and [Play Integrity] basic attestation
+
+{: .highlight-title }
+> Warning
+>
+> Niantic has dropped support for Android 7 with release 285.0[^2]
 
 ----
 
@@ -54,6 +59,7 @@ The following is a list of ATV devices confirmed to work with Exeggcute:
 | ...          | ...               | ...   |
 
 [^1]: [Discontinued Support for 32-Bit Android Devices](https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2572-discontinued-support-for-32-bit-android-devices)
+[^2]: [Discontinued Support for Android 7](https://niantic.helpshift.com/hc/pl/6-pokemon-go/faq/4302-discontinued-support-for-android-7-1695761816/)
 [SafetyNet]: https://developer.android.com/training/safetynet
 [Play Integrity]: https://developer.android.com/google/play/integrity
 [configuration]: {% link docs/installation/device-setup/configuration.md %}
