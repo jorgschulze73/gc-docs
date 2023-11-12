@@ -14,7 +14,7 @@ The expected configuration is in JSON format and looks like this:
 {
     "api_key": "<exeggcute_api_key>",
     "device_name": "<device_name>",
-    "rotom_url": "ws://<rotom_url>",
+    "rotom_url": "ws://<rotom_url:port>",
     "workers_count": <workers_count>
 }
 ```
@@ -34,7 +34,7 @@ The field `device_name` is an optional string field that you can use to override
 > You will have to fill this property if you want your devices to have a human-readable name in your Rotom and Dragonite dashboards.
 
 ### Rotom URL
-The field `rotom_url` should point to your [Rotom] installation.
+The field `rotom_url` should point to your [Rotom] installation. The default port is `7070`.
 
 ### Workers count
 The field `workers_count` is an optional integer field that you can use to override the number of mapping workers that Exeggcute will run on a single device.
