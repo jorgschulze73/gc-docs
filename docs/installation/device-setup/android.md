@@ -48,6 +48,18 @@ TODO
 
 ----
 
+### Logging
+
+Exeggcute uses the standard Android logging framework. To gather logs you can use:
+
+{% highlight bash %}
+adb logcat -s "Exeggcute"
+# or
+logcat -s "Exeggcute"
+{% endhighlight %}
+
+----
+
 ### Android TVs
 
 Android TVs (ATVs) are particularly suitable for mapping as they're affordable and easy to root.
