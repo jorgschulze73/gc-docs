@@ -15,6 +15,7 @@ The expected configuration is in JSON format and looks like this:
     "api_key": "<exeggcute_api_key>",
     "device_name": "<device_name>",
     "rotom_url": "ws://<rotom_url>",
+    "rotom_secret": "<rotom_secret>",
     "workers_count": <workers_count>
 }
 ```
@@ -35,6 +36,9 @@ The field `device_name` is an optional string field that you can use to override
 
 ### Rotom URL
 The field `rotom_url` should point to your [Rotom] installation.
+
+### Rotom secret
+The field `rotom_secret` is an optional string field that you should set in case your [Rotom] installation has been configured to validate client connections.
 
 ### Workers count
 The field `workers_count` is an optional integer field that you can use to override the number of mapping workers that Exeggcute will run on a single device.
