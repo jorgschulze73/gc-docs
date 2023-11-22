@@ -15,7 +15,7 @@ Exeggcute supports both 32 and 64 bit Android devices
 
 ### Requirements
 
-- Android 9 or above
+- Android 8 or above
 - Device needs to be rooted
 - Device needs to pass [SafetyNet] and [Play Integrity] basic attestation
 
@@ -34,6 +34,11 @@ Exeggcute supports both 32 and 64 bit Android devices
 4. Place your Exeggcute [configuration] file at `/data/local/tmp/config.json`
 5. Run Exeggcute once and grant it root permissions
 6. Relaunch Exeggcute, it will now take care of keeping Pokémon GO alive
+
+{: .highlight-title }
+> Warning
+>
+> Running 32-bit Pokémon GO on a 64-bit device is not supported: you need to install 64-bit apk
 
 {: .note }
 > You can check if your device passes SafetyNet using [this](https://play.google.com/store/apps/details?id=com.scottyab.safetynet.sample) app
