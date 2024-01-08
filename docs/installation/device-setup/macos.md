@@ -28,10 +28,11 @@ nav_order: 2
 2. Enable third-party kernel extensions: `bputil -k -c`
 3. Disable System Integrity Protection: `csrutil disable`
 4. Reboot your device normally
-5. Install Exeggute's kernel extension: `sudo cp -r <Exeggcute.kext> /Library/Extensions/`
-6. Open `System Preferences` and allow Exeggcute's kernel extension
-7. Reboot your machine again when prompted to do so
-8. Finally, load kernel extension: `sudo kextload /Library/Extensions/Exeggcute.kext`
+5. Disable codesign enforcement: `sudo nvram boot-args="cs_enforcement_disable=1 amfi_get_out_of_my_way=1"`
+6. Install Exeggute's kernel extension: `sudo cp -r <Exeggcute.kext> /Library/Extensions/`
+7. Open `System Preferences` and allow Exeggcute's kernel extension
+8. Reboot your machine again when prompted to do so
+9. Finally, load kernel extension: `sudo kextload /Library/Extensions/Exeggcute.kext`
 
 {: .highlight-title }
 > Warning
