@@ -44,7 +44,7 @@ The field `rotom_secret` is an optional string field that you should set in case
 The field `workers_count` is an optional integer field that you can use to override the number of mapping workers that Exeggcute will run on a single device _simultaneously_.
 
 {: .note }
-> The default value is `1` and the upper limit is `50`
+> The default value is `1` and the upper limit is `75`
 
 [pre-required]: {% link docs/installation/installation.md %}
 [^1]: [com.apple.developer.device-information.user-assigned-device-name](https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_device-information_user-assigned-device-name)
