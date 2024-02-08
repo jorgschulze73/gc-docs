@@ -52,6 +52,7 @@ As Exeggcute runs in headless mode, it's totally possible to launch multiple ins
   ./exeggcute {OPTIONS} app_bundle
   OPTIONS:
       -h, --help                             Display this help menu
+      -n[name], --name=[name]                Instance name
       -i[instance], --instance=[instance]    Instance number                (default: 1)
       -w[workers], --workers=[workers]       Override workers number        (optional)
       app_bundle                             Path to the PokmonGO.app bundle
