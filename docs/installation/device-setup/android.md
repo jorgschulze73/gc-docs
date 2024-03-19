@@ -15,14 +15,14 @@ Exeggcute supports both 32 and 64 bit Android devices
 
 ### Requirements
 
-- Android 8 or above
+- Android 9 or above
 - Device needs to be rooted
 - Device needs to pass [SafetyNet] and [Play Integrity] basic attestation
 
 {: .highlight-title }
 > Warning
 >
-> Niantic has dropped support for Android 7 with release 285.0[^2]
+> Niantic has dropped support for Android 8 with release 305.0[^2]
 
 ----
 
@@ -47,12 +47,6 @@ Exeggcute supports both 32 and 64 bit Android devices
 
 ----
 
-### eMagisk (optional)
-
-TODO
-
-----
-
 ### Logging
 
 Exeggcute uses the standard Android logging framework. To gather logs you can use:
@@ -63,20 +57,8 @@ adb logcat -s "Exeggcute"
 logcat -s "Exeggcute"
 {% endhighlight %}
 
-----
-
-### Android TVs
-
-Android TVs (ATVs) are particularly suitable for mapping as they're affordable and easy to root.
-
-The following is a list of ATV devices confirmed to work with Exeggcute:
-
-| Model        | CPU               | OS    |
-|:-------------|:------------------|:------|
-| ...          | ...               | ...   |
-
 [^1]: [Discontinued Support for 32-Bit Android Devices](https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2572-discontinued-support-for-32-bit-android-devices)
-[^2]: [Discontinued Support for Android 7](https://niantic.helpshift.com/hc/pl/6-pokemon-go/faq/4302-discontinued-support-for-android-7-1695761816/)
+[^2]: [Discontinued Support for Android 8](https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/4448-discontinued-support-for-android-8/)
 [SafetyNet]: https://developer.android.com/training/safetynet
 [Play Integrity]: https://developer.android.com/google/play/integrity
 [configuration]: {% link docs/installation/device-setup/configuration.md %}
