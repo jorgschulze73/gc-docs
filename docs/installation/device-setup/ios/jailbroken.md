@@ -6,12 +6,17 @@ grand_parent: Device Setup
 nav_order: 1
 ---
 
-Exeggcute supports both rootful and rootless jailbreaks
+Exeggcute supports rootless jailbreaks
 
 ### Requirements
 
 - arm64 device
-- iOS 14 or above
+- iOS 15 or above
+
+{: .highlight-title }
+> Warning
+>
+> Niantic has dropped support for iOS 14 with release 305.0[^1]
 
 ----
 
@@ -19,8 +24,8 @@ Exeggcute supports both rootful and rootless jailbreaks
 
 1. Install latest Exeggcute deb
 2. Install latest supported Pokémon GO version
-3. If running on a rootful jailbreak, install latest kernbypass deb
-4. Place your Exeggcute [configuration] file at `/var/mobile/Application Support/exeggcute/config.json`
-5. Launch Pokémon GO
+3. Place your Exeggcute [configuration] file at `/var/mobile/Application Support/exeggcute/config.json`
+4. Launch Pokémon GO
 
 [configuration]: {% link docs/installation/device-setup/configuration.md %}
+[^1]: [Discontinued Support for iOS 14](https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/4447-discontinued-support-for-ios-14/)
