@@ -16,7 +16,8 @@ The expected configuration is in JSON format and looks like this:
     "device_name": "<device_name>",
     "rotom_url": "ws://<rotom_url:port>",
     "rotom_secret": "<rotom_secret>",
-    "workers_count": <workers_count>
+    "workers_count": <workers_count>,
+    "remote_attestations": <remote_attestations>
 }
 ```
 
@@ -45,6 +46,11 @@ The field `workers_count` is an optional integer field that you can use to overr
 
 {: .note }
 > The default value is `1` and the upper limit is `50`
+
+### Remote attestations
+The field `remote_attestations` is an optional boolean flag available on Android that you can use to redirect SafetyNet and Play Integrity attestations to some other devices.
+
+This is particularly useful in case you want to run Exeggcute on targets that are not able to pass attestations by themselves, such as emulators and virtual devices.
 
 [pre-required]: {% link docs/installation/installation.md %}
 [^1]: [com.apple.developer.device-information.user-assigned-device-name](https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_device-information_user-assigned-device-name)
