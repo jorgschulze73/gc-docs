@@ -45,7 +45,7 @@ The field `rotom_secret` is an optional string field that you should set in case
 The field `workers_count` is an optional integer field that you can use to override the number of mapping workers that Exeggcute will run on a single device _simultaneously_.
 
 {: .note }
-> The default value is `1` and the upper limit is `50`
+> The default value is `0` and the upper limit is `50`
 
 ### Remote attestations
 The field `remote_attestations` is an optional boolean flag available on Android that you can use to redirect SafetyNet and Play Integrity attestations to some other devices.
