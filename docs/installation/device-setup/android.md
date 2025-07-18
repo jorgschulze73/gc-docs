@@ -6,23 +6,18 @@ grand_parent: Installation
 nav_order: 3
 ---
 
-Exeggcute supports both 32 and 64 bit Android devices
+Exeggcute supports 64 bit Android devices
 
 {: .highlight-title }
 > Warning
 >
-> Niantic has previously indicated 32-bit architecture support will be dropped in future releases[^1]
+> Niantic has dropped support for 32-bit Android devices with release 0.369.0[^1]
 
 ### Requirements
 
 - Android 9 or above
 - Device needs to be rooted
-- Device needs to pass [SafetyNet] and [Play Integrity] basic attestation
-
-{: .highlight-title }
-> Warning
->
-> Niantic has dropped support for Android 8 with release 305.0[^2]
+- Device needs to pass [Play Integrity] basic attestation
 
 ----
 
@@ -35,14 +30,7 @@ Exeggcute supports both 32 and 64 bit Android devices
 5. Run Exeggcute once and grant it root permissions
 6. Relaunch Exeggcute, it will now take care of keeping Pokémon GO alive
 
-{: .highlight-title }
-> Warning
->
-> Running 32-bit Pokémon GO on a 64-bit device is not supported: you need to install 64-bit apk
-
 {: .note }
-> You can check if your device passes SafetyNet using [this](https://play.google.com/store/apps/details?id=com.scottyab.safetynet.sample) app
->
 > You can check if your device passes Play Integrity using [this](https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck) app
 
 ----
@@ -58,7 +46,5 @@ logcat -s "Exeggcute"
 {% endhighlight %}
 
 [^1]: [Discontinued Support for 32-Bit Android Devices](https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2572-discontinued-support-for-32-bit-android-devices)
-[^2]: [Discontinued Support for Android 8](https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/4448-discontinued-support-for-android-8/)
-[SafetyNet]: https://developer.android.com/training/safetynet
 [Play Integrity]: https://developer.android.com/google/play/integrity
 [configuration]: {% link docs/installation/device-setup/configuration.md %}
