@@ -1,7 +1,7 @@
 ---
 title: Installation
 layout: default
-nav_order: 2
+nav_order: 3
 has_children: true
 has_toc: false
 ---
@@ -12,8 +12,9 @@ In fact there's just few pre-requirements that are required on your end before g
 - [Dragonite]
 - [Rotom]
 - [One or more configured devices]
-- A valid API key to use Exeggcute
+- [A valid API key to use Exeggcute]
 
 [Dragonite]: https://github.com/UnownHash/Dragonite-Public
 [Rotom]: https://github.com/UnownHash/Rotom
 [One or more configured devices]: {% link docs/installation/device-setup/device-setup.md %}
+[A valid API key to use Exeggcute]: {% link docs/installation/mapping-tiers.md %}
